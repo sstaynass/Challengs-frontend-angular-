@@ -1,0 +1,19 @@
+<div class="top-fixed">Frete grátis para todo o Brasil</div>
+<div class="hero">
+    <div class="hero-text">
+       <div class="hero-logo"><img src="/assets/logo.svg"/></div>
+       <div class='hero-title'> A melhor loja de Jordan <p> </div>
+       <div class="hero-subtitle">O tênis Jordan é fruto de uma velha e forte <br> parceria entre a Nike e o jogador Michael Jordan
+    </div>
+</div>
+</div>
+<div class="catalog">
+    <div class="catalog-box">
+        <div class="catalog-title">Os melhores em só lugar<p></div>
+        <div class="catalog-subtitle">A marca Jordan na JordanShoes é a escolha certa para<br> os amantes de sneakers que buscam estilo e conforto.</div>
+        <div class="catalog-items">
+            <app-sapato *ngFor= "let sapato of sapatos" [imagem]= "sapato.imagem" [nome]= "sapato.nome" [preco]= "sapato.preco"></app-sapato>
+        </div>
+    </div>
+    
+</div>

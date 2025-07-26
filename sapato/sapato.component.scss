@@ -1,0 +1,19 @@
+.sapato {
+    width: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1.85vh;
+    background-color: #F3F7FF;
+}
+
+.catalogo-items {
+   display: flex;
+   align-items: baseline;
+   flex-wrap: wrap;
+   justify-content: baseline;
+   width: 112.59vh;
+   border: 0;
+   margin: 0 auto;
+}
