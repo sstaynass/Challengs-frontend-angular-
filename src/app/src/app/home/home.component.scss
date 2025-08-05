@@ -1,0 +1,77 @@
+.top-fixed {
+  background-color: #fff;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Archivo';
+  align-items: center;
+  font-size: 24px;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  align-items: center;
+  background-image: url('/assets/image-michael-jordan-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #121214BF;
+}
+.hero-text {
+  width: 557px;
+  height: 211px;
+  text-align: right;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  margin: 0 0 0 250px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 32px;
+  text-align: left;
+}
+
+.hero-logo {
+  font-family: 'Archivo';
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+  gap: 8px;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+.hero-subtitle {
+  text-align: left;
+  font-family: 'Archivo';
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.catalog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.catalog-box {
+  padding-top: 80px;
+  text-align: center;
+}
+.catalog-title {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+.catalog-subtitle {
+  font-size: 24px;
+  line-height: 1.5;
+}
+

@@ -1,38 +1,38 @@
 .top-fixed {
   background-color: #fff;
   width: 100%;
-  height: 64px;
+  height: 7.1vh;
   display: flex;
   justify-content: center;
-  font-family: 'Archivo';
   align-items: center;
-  font-size: 24px;
+  font-family: 'Archivo';
+  font-size: clamp(2.26vh, 2vw, 3.4vh);
 }
 
 .hero {
   width: 100%;
-  height: 400px;
+  height: 44.4vh;
   display: grid;
   align-items: center;
-  background-image: url('/assets/image-michael-jordan-background.jpg');
+  background-image: url('/assets/image-michael-jordan.png');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-color: #121214BF;
+  padding: 0 7vh;
 }
+
 .hero-text {
-  width: 557px;
-  height: 211px;
-  text-align: right;
+  height: auto;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-start;
-  margin: 0 0 0 250px;
+  margin-left: 21.1vh;
 }
 
 .hero-title {
   color: #fff;
-  font-size: 32px;
+  font-size: clamp(2.83vh, 3.6vw, 4.54vh);
   text-align: left;
 }
 
@@ -40,38 +40,60 @@
   font-family: 'Archivo';
   text-align: left;
   color: #fff;
-  font-size: 24px;
-  gap: 8px;
-  text-align: left;
-  margin: 0 0 10px 0;
+  font-size: clamp(2.26vh, 2.6vw, 3.4vh);
+  gap: 0.9vh;
+  margin: 0 0 1.1vh 0;
 }
+
 .hero-subtitle {
   text-align: left;
   font-family: 'Archivo';
-  font-size: 24px;
+  font-size: clamp(2.26vh, 2.6vw, 3.4vh);
   color: #fff;
-  text-align: left;
   line-height: 1.5;
-  letter-spacing: 1px;
-}
-.catalog {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.catalog-box {
-  padding-top: 80px;
-  text-align: center;
-}
-.catalog-title {
-  color: black;
-  font-size: 32px;
-  font-weight: bold;
-}
-.catalog-subtitle {
-  font-size: 24px;
-  line-height: 1.5;
+  letter-spacing: 0.1vh;
 }
 
+.catalog-box {
+  padding-top: 8.9vh;
+  text-align: center;
+}
+
+.catalog-title {
+  color: black;
+  font-family: 'Archivo';
+  font-weight: 600;
+  font-size: xx-large;
+  width: 374px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.catalog-subtitle {
+  font-family: 'Archivo';
+  line-height: 1.5;
+  width: 593px;
+  height: 68px;
+  margin: 2.5vh auto;
+  font-style: regular;
+  font-size: x-large;
+}
+
+@media (max-width: 765px) {
+  .hero-text {
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+  .hero {
+    padding: 0 2.82vh;
+  }
+}
+
+.catalog-items {
+  width: 153.4vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}

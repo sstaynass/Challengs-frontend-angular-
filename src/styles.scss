@@ -7,14 +7,22 @@
 
   --gray: #f3f7ff;
   --white: #ffffff;
-}
 
-body {
-  font-family: "Archivo", sans-serif;
 }
-
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;  
+  overflow-x: hidden; 
 }
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#app, .container-principal { 
+  flex: 1; 
+}
+
