@@ -9,5 +9,6 @@ import { Component, Input } from '@angular/core';
 export class SapatoComponent {
   @Input() imagem!: string;
   @Input() nome!: string;
-  @Input() preco!: number;
+  @Input() preco!: string;
+  @Input() tipo!: string;
 }

@@ -13,6 +13,21 @@
     width: 40vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: baseline;
+    text-align: baseline;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    margin: 15px
 };
+
+.sapato-tipo {
+    font-family: 'Archivo', sans-serif;
+    color: #7CA2F4;
+    font-size:small;
+    margin: 10px 0 0 0;
+}
+.preco {
+    margin: 20px 0;
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 500;
+}
